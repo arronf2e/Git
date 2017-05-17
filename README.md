@@ -38,3 +38,25 @@
 12. git rm filename   从版本库中删除文件 
 
 13. git remote add origin xxxx  添加一个远程仓库
+
+14. git clone xxxxxxxxxxxxx 克隆一个仓库到本地
+
+15. git checkout -b $branchName   新建分支并切换
+
+16. git branch 查看当前分支
+
+17. git merge  $branchName 合并指定分支到当前分支
+
+18. git branch -d $branchName  删除分支
+
+19. git branch -D $branchName  强行删除分支，不管是否合并过
+
+19. git stash  把当前工作现场“储藏”起来，等以后恢复现场后继续工作, 场景 ： 正在做一个任务，突然有个bug过来，要新建一个分支处理
+
+20. git stash list 查看工作区列表，恢复工作区的时候有用
+
+21. git stash apply 恢复工作现场，但列表中的工作区还在
+
+22. git stash drop 删除工作现场
+
+22. git stash pop   == git stash apply + git stash drop
